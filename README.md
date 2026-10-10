@@ -17,9 +17,8 @@ project/
 ./init_environment.sh
 ```
 
-### 2. gdb로 프로그램 실행 및 glibc 연결
+### 2. 디버거로 프로그램 실행
 ```bash
-# gdb 터미널로 프로그램 연결
 gdb -d program/ -d glibc/ --tui program/fsread
 ```
 
