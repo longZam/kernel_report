@@ -19,7 +19,7 @@ project/
 
 ### 2. 디버거로 프로그램 실행
 ```bash
-gdb -d program/ -d glibc/ --tui program/fsread
+gdb -d program/ -d glibc/ --tui --args program/fsread program/data.txt
 ```
 
 `fsread.c:9` 에 중단점을 지정하고, 진행시켜 중단점에서 중단한 예시입니다.
